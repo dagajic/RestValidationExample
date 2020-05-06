@@ -1,0 +1,12 @@
+
+POST
+http://localhost:8080/send
+
+{
+	"reqId":0,
+	"document":{
+		"id":1,
+		"sender":"sender",
+		"receiver":"receiver"
+	}
+}
